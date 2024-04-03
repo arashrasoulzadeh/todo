@@ -1,11 +1,13 @@
 package responses
 
-import "awesomeProject/internal/models"
+import (
+	"awesomeProject/internal/models"
+)
 
 type Task struct {
-	Title  string
-	Desc   string
-	Status string
+	Title  string `json:"title"`
+	Desc   string `json:"desc,omitempty"`
+	Status string `json:"status"`
 }
 
 func (t *Task) Fill(task models.Task) {

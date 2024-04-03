@@ -7,7 +7,7 @@ tasks have title and description and status
 [X] add new task
 [X] update task
 
-[ ] dockerize
+[X] docker 
 [ ] test
 [X] repository
 [X] log
